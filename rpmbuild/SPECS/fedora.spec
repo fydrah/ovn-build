@@ -33,7 +33,7 @@ Version: 20.09.0
 Obsoletes: openvswitch-ovn-common < %{?epoch:%{epoch}:}%{version}-%{release}
 Provides: openvswitch-ovn-common = %{?epoch:%{epoch}:}%{version}-%{release}
 
-%define ovsver @OVSVERSION@
+%define ovsver 2.14.0
 %define ovsdir openvswitch-%{ovsver}
 
 # Nearly all of openvswitch is ASL 2.0.  The bugtool is LGPLv2+, and the
